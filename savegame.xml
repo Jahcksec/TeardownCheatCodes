@@ -1,0 +1,101 @@
+<registry version="0.4.5">
+	<savegame>
+		<tool>
+			<sledge>
+				<enabled value="1"/>
+			</sledge>
+			<spraycan>
+                                <enabled value="1"/>
+                        </spraycan>
+                        <extinguisher>
+                                <enabled value="1"/>
+                        </extinguisher>
+                        <shotgun>
+                                <enabled value="1"/>
+                        </shotgun>
+                        <rocket>
+                                <enabled value="1"/>
+                        </rocket>
+                        <pipebomb>
+                                <enabled value="1"/>
+                        </pipebomb>
+                        <gun>
+                                <enabled value="1"/>
+                        </gun>
+                        <bomb>
+                                <enabled value="1"/>
+                        </bomb>
+                        <blowtorch>
+                                 <enabled value="1"/>
+                        </blowtorch>
+                        <plank>
+                                 <enabled value="1"/>
+                        </plank>
+
+		</tool>
+		<message>
+			<boss_intro value="2"/>
+			<mall_intro value="2"/>
+			<boss_busted value="2"/>
+			<lee_computers value="2"/>
+			<lee_login value="2"/>
+			<boss_coffee value="2"/>
+			<marina_demolish value="2"/>
+			<marina_cars value="2"/>
+			<marina_gps value="1"/>
+		</message>
+		<mission>
+			<mall_intro value="1">
+				<score value="1"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="516.7829"/>
+			</mall_intro>
+			<lee_computers value="1">
+                                <score value="3"/>
+                                <timeleft value="-1.0"/>
+                                <missiontime value="4.8"/>
+                        </lee_computers>
+                        <lee_login value="1">
+                                <score value="3"/>
+                                <timeleft value="-1.0"/>
+                                <missiontime value="2.3"/>
+                       </lee_login>
+                       <marina_gps value="1">
+                                <score value="3"/>
+                                <timeleft value="-1.0"/>
+                                <missiontime value="2.3"/>
+                       </marina_gps>
+                       <mansion_fraud value="1">
+                                <score value="3"/>
+                                <timeleft value="-1.0"/>
+                                <missiontime value="2.3"/>
+                       </mansion_fraud>
+                       <caveisland_propane value="1">
+                                <score value="3"/>
+                                <timeleft value="-1.0"/>
+                                <missiontime value="2.3"/>
+                       </caveisland_propane>
+		</mission>
+		<lastcompleted value="marina_demolish"/>
+		<hub>
+			<score value="9"/>
+			<hub2 value="1"/>
+			<hub3 value="1"/>
+			<hub4 value="1"/>
+		</hub>
+		<valuable>
+			<lee_cash3 value="1"/>
+			<lee_cash2 value="1"/>
+			<lee_bottles value="1"/>
+			<lee_screwdriver value="1"/>
+			<lee_stair_toolbox value="1"/>
+			<marina_cashregister value="1"/>
+			<marina_lifevest value="1"/>
+			<marina_swordfish value="1"/>
+			<marina_vacuum value="1"/>
+			<marina_modelship value="1"/>
+		</valuable>
+		<cash value="99999999"/>
+	</savegame>
+</registry>
+
