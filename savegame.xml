@@ -5,33 +5,48 @@
 				<enabled value="1"/>
 			</sledge>
 			<spraycan>
-                                <enabled value="1"/>
-                        </spraycan>
-                        <extinguisher>
-                                <enabled value="1"/>
-                        </extinguisher>
-                        <shotgun>
-                                <enabled value="1"/>
-                        </shotgun>
-                        <rocket>
-                                <enabled value="1"/>
-                        </rocket>
-                        <pipebomb>
-                                <enabled value="1"/>
-                        </pipebomb>
-                        <gun>
-                                <enabled value="1"/>
-                        </gun>
-                        <bomb>
-                                <enabled value="1"/>
-                        </bomb>
-                        <blowtorch>
-                                 <enabled value="1"/>
-                        </blowtorch>
-                        <plank>
-                                 <enabled value="1"/>
-                        </plank>
-
+				<enabled value="1"/>
+			</spraycan>
+			<extinguisher>
+				<enabled value="1"/>
+			</extinguisher>
+			<shotgun>
+				<enabled value="1"/>
+				<ammo value="96"/>
+				<range value="60"/>
+				<damage value="5"/>
+			</shotgun>
+			<rocket>
+				<enabled value="1"/>
+				<ammo value="24"/>
+				<damage value="5"/>
+			</rocket>
+			<pipebomb>
+				<enabled value="1"/>
+				<ammo value="36"/>
+				<damage value="4"/>
+			</pipebomb>
+			<gun>
+				<enabled value="1"/>
+				<ammo value="36"/>
+				<range value="100"/>
+				<damage value="3"/>
+			</gun>
+			<bomb>
+				<enabled value="1"/>
+				<ammo value="36"/>
+				<damage value="6"/>
+			</bomb>
+			<blowtorch>
+				<enabled value="1"/>
+				<ammo value="60"/>
+			</blowtorch>
+			<plank>
+				<enabled value="1"/>
+				<ammo value="64"/>
+				<width value="5"/>
+				<length value="64"/>
+			</plank>
 		</tool>
 		<message>
 			<boss_intro value="2"/>
@@ -40,61 +55,137 @@
 			<lee_computers value="2"/>
 			<lee_login value="2"/>
 			<boss_coffee value="2"/>
+			<lee_safe value="2"/>
+			<caveisland_computers value="2"/>
+			<mansion_race value="2"/>
+			<caveisland_dishes value="2"/>
 			<marina_demolish value="2"/>
-			<marina_cars value="2"/>
-			<marina_gps value="1"/>
+			<dev_thanks value="2"/>
+			<lee_safe_done value="2"/>
+			<marina_cars_reminder value="2"/>
+			<boss_encourage_1 value="2"/>
+			<mansion_art value="2"/>
+			<lee_powerplant_done value="2"/>
+			<frustrum_chase value="2"/>
+			<marina_tools value="2"/>
+			<boss_encourage_2 value="1"/>
 		</message>
 		<mission>
 			<mall_intro value="1">
 				<score value="1"/>
 				<timeleft value="-1.0"/>
-				<missiontime value="516.7829"/>
+				<missiontime value="1.1"/>
 			</mall_intro>
 			<lee_computers value="1">
-                                <score value="3"/>
-                                <timeleft value="-1.0"/>
-                                <missiontime value="4.8"/>
-                        </lee_computers>
-                        <lee_login value="1">
-                                <score value="3"/>
-                                <timeleft value="-1.0"/>
-                                <missiontime value="2.3"/>
-                       </lee_login>
-                       <marina_gps value="1">
-                                <score value="3"/>
-                                <timeleft value="-1.0"/>
-                                <missiontime value="2.3"/>
-                       </marina_gps>
-                       <mansion_fraud value="1">
-                                <score value="3"/>
-                                <timeleft value="-1.0"/>
-                                <missiontime value="2.3"/>
-                       </mansion_fraud>
-                       <caveisland_propane value="1">
-                                <score value="3"/>
-                                <timeleft value="-1.0"/>
-                                <missiontime value="2.3"/>
-                       </caveisland_propane>
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="4.8"/>
+			</lee_computers>
+			<lee_login value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="2.3"/>
+			</lee_login>
+			<lee_tower value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="4.8"/>
+			</lee_tower>
+			<lee_safe value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="4.8"/>
+			</lee_safe>
+			<lee_powerplant value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="4.8"/>
+			</lee_powerplant>
+			<lee_flooding value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="4.8"/>
+			</lee_flooding>
+			<marina_gps value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="2.3"/>
+			</marina_gps>
+			<mansion_fraud value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="2.3"/>
+			</mansion_fraud>
+			<caveisland_dishes value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="2.3"/>
+			</caveisland_dishes>
+			
+			<caveisland_propane value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="2.3"/>
+			</caveisland_propane>
+			<frustrum_chase value="1">
+				<score value="3"/>
+				<timeleft value="-1.0"/>
+				<missiontime value="2.3"/>
+			</frustrum_chase>
+			<mansion_race value="1"/>
+			<caveisland_computers value="1"/>
+			<lee_safe value="1"/>
+			<marina_demolish value="1"/>
+			<mansion_art value="1"/>
+			<marina_tools value="1"/>
 		</mission>
-		<lastcompleted value="marina_demolish"/>
+		<lastcompleted value="lee_computers"/>
 		<hub>
-			<score value="9"/>
+			<score value="34"/>
 			<hub2 value="1"/>
-			<hub3 value="1"/>
-			<hub4 value="1"/>
+			<hub14 value="1"/>
+			<hub16 value="1"/>
 		</hub>
 		<valuable>
-			<lee_cash3 value="1"/>
-			<lee_cash2 value="1"/>
-			<lee_bottles value="1"/>
+			<lee_whisky value="1"/>
 			<lee_screwdriver value="1"/>
-			<lee_stair_toolbox value="1"/>
-			<marina_cashregister value="1"/>
-			<marina_lifevest value="1"/>
-			<marina_swordfish value="1"/>
-			<marina_vacuum value="1"/>
-			<marina_modelship value="1"/>
+			<lee_tilecutter value="1"/>
+			<lee_cash3 value="1"/>
+			<lee_painting4 value="1"/>
+			<hub_banana value="1"/>
+			<marina_cashbox value="1"/>
+			<marina_lubrication value="1"/>
 		</valuable>
-		<cash value="99999999"/>
+		<cash value="999984670"/>
+		<sandbox>
+			<enabled value="1"/>
+		</sandbox>
+		<challenge>
+			<ch_lee_mayhem>
+				<score value="613323908.0"/>
+				<stars value="5"/>
+				<scoredetails value="613323908 voxels"/>
+			</ch_lee_mayhem>
+			<ch_caveisland_mayhem>
+				<score value="613323908.0"/>
+				<stars value="5"/>
+				<scoredetails value="613323908 voxels"/>
+			</ch_caveisland_mayhem>
+			<ch_marina_mayhem>
+				<score value="613323908.0"/>
+				<stars value="5"/>
+				<scoredetails value="613323908 voxels"/>
+			</ch_marina_mayhem>
+			<ch_mansion_mayhem>
+				<score value="613323908.0"/>
+				<stars value="5"/>
+				<scoredetails value="613323908 voxels"/>
+			</ch_mansion_mayhem>
+			<ch_frustrum_mayhem>
+				<score value="613323908.0"/>
+				<stars value="5"/>
+				<scoredetails value="613323908 voxels"/>
+			</ch_frustrum_mayhem>
+		</challenge>
 	</savegame>
 </registry>
