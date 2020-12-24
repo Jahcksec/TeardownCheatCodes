@@ -1,4 +1,4 @@
-<registry version="0.4.6">
+<registry version="0.5.2">
 	<savegame>
 		<tool>
 			<sledge>
@@ -98,4 +98,3 @@
 		<cash value="99999999"/>
 	</savegame>
 </registry>
-
